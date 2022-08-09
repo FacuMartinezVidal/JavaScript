@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Compra tu nuevo auto">
+    <meta name="keywords" content="compra,auto,nuevo,usado,sitio,web,automoviles,coches">
+    <title>Compra tu auto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="icon" href="../images/icon.ico">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark nav_bar" >
+            <div class="container-fluid" style="gap: 50px;">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">CarShow</a>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03" style="gap: 1px; font-size: 23px;">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./auto-compra.html">Compra un auto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./auto-venta.html">Vende tu auto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./mi-cuenta.html">Mi cuenta</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item dropdown animate__animated animate__fadeInDownBig"  >
+                    <a class="nav-link active dropdown-toggle animate__animated animate__fadeInDownBig" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Favoritos 
+                    </a>
+                    <ul id="padre_fav" class="dropdown-menu animate__animated animate__fadeInDownBig" aria-labelledby="navbarDropdownMenuLink">
+                        
+                    </ul>
+                  </li>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main id="main">
+      <button onclick="funcionRandom()">click</button>
+    </main>
+    <footer class="bg-dark text-center text-white">
+      <div class="container p-4 pb-0">
+        <section class="mb-4">
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com" role="button"><img src="../images/ins.png"  alt="ig"></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.twitter.com" role="button"><img src="../images/tw.png"   alt="tw"></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com" role="button"><img src="../images/fb.svg"   alt='fb'></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com" role="button"><img src="../images/in.png"   alt="in"></a>
+        </section>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-white" href="./index.html">Carshow.com</a>
+      </div>
+    </footer>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
